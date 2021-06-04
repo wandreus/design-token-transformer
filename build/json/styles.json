@@ -1,5 +1,8 @@
 {
   "Sizes40": 40,
   "Sizes60": 60,
-  "Sizes80": 80
+  "Sizes80": 80,
+  "BreakpointsLg": 1280,
+  "BreakpointsSm": 768,
+  "BreakpointsMd": 1024
 }
