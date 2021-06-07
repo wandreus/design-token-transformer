@@ -2,9 +2,6 @@
   "Sizes40": 11.33,
   "Sizes60": 17,
   "Sizes80": 22.67,
-  "BreakpointsLg": 1280,
-  "BreakpointsSm": 768,
-  "BreakpointsMd": 1024,
   "Spacing10Top": 2.83,
   "Spacing10Right": 2.83,
   "Spacing10Bottom": 2.83,
@@ -16,5 +13,8 @@
   "SpacingTopTop": 2.83,
   "SpacingTopRight": 0,
   "SpacingTopBottom": 0,
-  "SpacingTopLeft": 0
+  "SpacingTopLeft": 0,
+  "BreakpointsLg": 1280,
+  "BreakpointsSm": 768,
+  "BreakpointsMd": 1024
 }
