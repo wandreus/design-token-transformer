@@ -1,10 +1,19 @@
 
 // Do not edit directly
-// Generated on Mon, 07 Jun 2021 01:13:02 GMT
+// Generated on Wed, 16 Jun 2021 20:10:59 GMT
 
 $sizes-40: 11.33;
 $sizes-60: 17;
 $sizes-80: 22.67;
+$sizes-plain-token: 200;
+$sizes-token-in-frame: 200;
+$sizes-token-in-group: 200;
+$sizes-in-variant-60: 60;
+$sizes-in-variant-90: 90;
+$sizes-in-variant-120: 120;
+$breakpoints-lg: 1280;
+$breakpoints-sm: 768;
+$breakpoints-md: 1024;
 $spacing-10-top: 2.83;
 $spacing-10-right: 2.83;
 $spacing-10-bottom: 2.83;
@@ -17,6 +26,23 @@ $spacing-top-top: 2.83;
 $spacing-top-right: 0;
 $spacing-top-bottom: 0;
 $spacing-top-left: 0;
-$breakpoints-lg: 1280;
-$breakpoints-sm: 768;
-$breakpoints-md: 1024;
+$radii-5-radius: 5;
+$radii-5-radius-type: single;
+$radii-5-radii-top-left: 5;
+$radii-5-radii-top-right: 5;
+$radii-5-radii-bottom-right: 5;
+$radii-5-radii-bottom-left: 5;
+$radii-5-smoothing: 0;
+$radii-smoothing-radius: 10;
+$radii-smoothing-radius-type: single;
+$radii-smoothing-radii-top-left: 10;
+$radii-smoothing-radii-top-right: 10;
+$radii-smoothing-radii-bottom-right: 10;
+$radii-smoothing-radii-bottom-left: 10;
+$radii-smoothing-smoothing: 0.75;
+$radii-mixed-radius-type: mixed;
+$radii-mixed-radii-top-left: 5;
+$radii-mixed-radii-top-right: 10;
+$radii-mixed-radii-bottom-right: 15;
+$radii-mixed-radii-bottom-left: 20;
+$radii-mixed-smoothing: 0;
