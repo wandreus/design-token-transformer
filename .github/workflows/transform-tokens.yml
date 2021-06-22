@@ -37,8 +37,8 @@ jobs:
           # we use version 14.x of node
           node-version: 14.x
       # We now run npm i to install all dependencies and run the "transfrom" script that is defined in the package.json (change this if you need to)
-      - name: Transform design tokens 
-        run: 'npm i && npm run transform-tokens'
+      - name: Transform design tokens and Deploy 
+        run: 'npm i && npm run transform-tokens && cd build && npm init -y && npm publish'
       # We now store the changes in the repository
       - name: Persist changes in repository
         uses: mikeal/publish-to-github-action@master
@@ -46,6 +46,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # this parameter is optional and defaults to master but I am using main
           BRANCH_NAME: 'main'
-      # send files npm package
-      - name: send files npm package
-        run: 'npm run deploy'
