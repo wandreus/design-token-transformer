@@ -3,7 +3,7 @@
   "platforms": {
     "scss": {
       "transformGroup": "scss",
-      "buildPath": "build/scss/",
+      "buildPath": "token-original-io/scss/",
       "files": [{
         "destination": "_variables.scss",
         "format": "scss/variables"
@@ -11,7 +11,7 @@
     },
     "less": {
       "transformGroup": "less",
-      "buildPath": "build/less/",
+      "buildPath": "token-original-io/less/",
       "files": [{
         "destination": "_variables.less",
         "format": "less/variables"
@@ -19,7 +19,7 @@
     },
     "css": {
       "transformGroup": "css",
-      "buildPath": "build/css/",
+      "buildPath": "token-original-io/css/",
       "files": [{
         "destination": "_variables.css",
         "format": "css/variables"
@@ -27,7 +27,7 @@
     },
     "json-flat": {
       "transformGroup": "js",
-      "buildPath": "build/json/",
+      "buildPath": "token-original-io/json/",
       "files": [
         {
           "destination": "styles.json",
@@ -37,7 +37,7 @@
     },
     "ios": {
       "transformGroup": "ios",
-      "buildPath": "build/ios/",
+      "buildPath": "token-original-io/ios/",
       "files": [{
         "destination": "StyleDictionaryColor.h",
         "format": "ios/colors.h",
@@ -74,7 +74,7 @@
     },
     "ios-swift": {
       "transformGroup": "ios-swift",
-      "buildPath": "build/ios-swift/",
+      "buildPath": "token-original-io/ios-swift/",
       "files": [{
         "destination": "StyleDictionary.swift",
         "format": "ios-swift/class.swift",
@@ -84,7 +84,7 @@
     },
     "ios-swift-separate-enums": {
       "transformGroup": "ios-swift-separate",
-      "buildPath": "build/ios-swift/",
+      "buildPath": "token-original-io/ios-swift/",
       "files": [{
         "destination": "StyleDictionaryColor.swift",
         "format": "ios-swift/enum.swift",
